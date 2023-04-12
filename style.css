@@ -1,28 +1,16 @@
 @charset "UTF-8";
 
-div.親 {
- border:2px solid lime;
- width: 600px;
- height: 300px;
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  background-color: rgba(0, 250, 50, 0.2);
-}
 
- div.ヘア1 img {
-  border: 2px solid lime;
-  width: 25%;
+.parent{
+  display: flex;
+  flex-wrap: wrap;   //このように親要素に指定します
+  width: 600px;
 }
- div.ヘア2 img {
-  border: 2px solid lime;
-  width: 25%;
-}
- div.ヘア3 img {
-  border: 2px solid lime;
-  width: 25%;
-}
- div.ヘア4 img {
-  border: 2px solid lime;
-  width: 25%;
+ 
+.child{
+  box-sizing:border-box;
+  border: 5px solid white;
+  flex-basis: 200px;  //200pxの要素が3つ並ぶと600pxを超え、flex-wrapが動作します
+  padding: 10px;
+  background-color: #ff838b;
 }
