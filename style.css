@@ -1,17 +1,28 @@
 @charset "UTF-8";
 
-div.親1 {
+div.親 {
  border:2px solid lime;
-  width: 75%;
+  width: 70%;
   height:auto;
   display:flex;
-  flex-direction:row; /* 記載しなくてもデフォルトで指定されている */
   flex-wrap:wrap; /* 折り返し */
   justify-content:space-between; /* 子要素を均等に配置・両端揃え */
   background-color: rgba(0, 250, 50, 0.2)
 }
 
  div.ヘア1 img {
+  border: 2px solid lime;
+  width: 25%;
+}
+ div.ヘア2 img {
+  border: 2px solid lime;
+  width: 25%;
+}
+ div.ヘア3 img {
+  border: 2px solid lime;
+  width: 25%;
+}
+ div.ヘア4 img {
   border: 2px solid lime;
   width: 25%;
 }
