@@ -2,7 +2,9 @@
 
 div.親 {
  border:2px solid lime;
+ width: 300px;
   display:flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   background-color: rgba(0, 250, 50, 0.2);
 }
