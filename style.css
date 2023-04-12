@@ -2,19 +2,40 @@
 
 @media screen and (min-width:10px) and (max-width:500px){
   
-.parent{
+div.親1 {
   border: 2px solid lime;
   background-color:rgba(0,250,200,0.2);
   display: flex;
-  flex-wrap: wrap;   //このように親要素に指定します
-  width: 350px;
+  flex-wrap: wrap;  
+  width: 350px;　
 }
  
-.child{
+div.ヘア1 {
   border: 2px solid aqua;
   background-color:rgba(0,250,200,0.2);
   box-sizing:border-box;
-  flex-basis: 150px;  //要素が3つ並ぶとx親を超え、flex-wrapが動作します
+  flex-basis: 170px;  //要素を並べて親を超えないまで、または2つ並べて親を超える場合は、flex-wrap無効、要素が3つ以上並べ親を超えるとflex-wrapが動作
+  padding: 10px;
+}
+div.ヘア2 {
+  border: 2px solid aqua;
+  background-color:rgba(0,250,200,0.2);
+  box-sizing:border-box;
+  flex-basis: 170px;  //要素を並べて親を超えないまで、または2つ並べて親を超える場合は、flex-wrap無効、要素が3つ以上並べ親を超えるとflex-wrapが動作
+  padding: 10px;
+}  
+div.ヘア3 {
+  border: 2px solid aqua;
+  background-color:rgba(0,250,200,0.2);
+  box-sizing:border-box;
+  flex-basis: 170px;  //要素を並べて親を超えないまで、または2つ並べて親を超える場合は、flex-wrap無効、要素が3つ以上並べ親を超えるとflex-wrapが動作
+  padding: 10px;
+}
+div.ヘア4 {
+  border: 2px solid aqua;
+  background-color:rgba(0,250,200,0.2);
+  box-sizing:border-box;
+  flex-basis: 170px;  //要素を並べて親を超えないまで、または2つ並べて親を超える場合は、flex-wrap無効、要素が3つ以上並べ親を超えるとflex-wrapが動作
   padding: 10px;
 }
   
@@ -33,7 +54,7 @@
   border: 2px solid aqua;
   background-color:rgba(0,250,200,0.2);
   box-sizing:border-box;
-  flex-basis: 400px;   //要素が3つ並ぶとx親を超え、flex-wrapが動作します
+  flex-basis: 400px;   //要素が3つ並ぶと親を超え、flex-wrapが動作します
   padding: 10px;
 }
   
@@ -44,14 +65,14 @@
   background-color:rgba(0,250,200,0.2);
   display: flex;
   flex-wrap: wrap;   //このように親要素に指定します
-  width: 1050px;
+  width: 1100px;
 }
  
 .child{
   border: 2px solid aqua;
   background-color:rgba(0,250,200,0.2);
   box-sizing:border-box;
-  flex-basis: 500px;   //要素が3つ並ぶとx親を超え、flex-wrapが動作します
+  flex-basis: 500px;   //要素が3つ並ぶと親を超え、flex-wrapが動作します
   padding: 10px;
 }
   
